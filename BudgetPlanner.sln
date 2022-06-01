@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetPlanner", "BudgetPlanner\BudgetPlanner.csproj", "{3C8C268C-9AD2-4300-8788-F6AF19481286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{01D6A633-1F90-45B3-AF4F-C2F9EC7090A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C8C268C-9AD2-4300-8788-F6AF19481286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8C268C-9AD2-4300-8788-F6AF19481286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8C268C-9AD2-4300-8788-F6AF19481286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8C268C-9AD2-4300-8788-F6AF19481286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D6A633-1F90-45B3-AF4F-C2F9EC7090A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D6A633-1F90-45B3-AF4F-C2F9EC7090A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D6A633-1F90-45B3-AF4F-C2F9EC7090A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D6A633-1F90-45B3-AF4F-C2F9EC7090A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A261694D-2B8B-4875-894E-DCEEAA395BCE}
+	EndGlobalSection
+EndGlobal

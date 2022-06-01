@@ -1,0 +1,8 @@
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\bin\Debug\BudgetPlanner.exe.config
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\bin\Debug\BudgetPlanner.exe
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\bin\Debug\BudgetPlanner.pdb
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\obj\Debug\BudgetPlanner.csproj.AssemblyReference.cache
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\obj\Debug\BudgetPlanner.csproj.SuggestedBindingRedirects.cache
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\obj\Debug\BudgetPlanner.csproj.CoreCompileInputs.cache
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\obj\Debug\BudgetPlanner.exe
+C:\Users\tyree\source\repos\BudgetPlanner\BudgetPlanner\obj\Debug\BudgetPlanner.pdb
