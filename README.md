@@ -50,6 +50,7 @@
 	  A: Hold down ALT key and press the Enter key to exit a windowed view of the program and you will then be allowed to type.
 
 > Advanced features:
+	- Unit testing added
 	- The project is available on GitHub
 
 > What did I change based on lecturer's feedback:
