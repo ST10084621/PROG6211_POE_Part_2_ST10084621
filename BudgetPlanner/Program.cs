@@ -157,13 +157,21 @@ namespace BudgetPlanner
                 Console.WriteLine("1 - Rent a property \n2 - Purchase a property");
                 Console.Write("Select option number > ");
                 int ans = Convert.ToInt32(Console.ReadLine());  // stores user's option
-                Rent r = new Rent();
 
+                Rent r = new Rent();
                 switch (ans)
                 {
                     case 1: rentCost = r.monthlyRent(); break;  // calls method to get monthly rental amount
                     case 2: homeloanCost = r.homeLoan(income); break; // calls method to get home loan info
                 }
+
+                if (ans > 2 || ans < 1)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\n| Error: Please enter 1 or 2 |\n");
+                    rentOrBuyProperty();
+                }
+         
             }
             catch (Exception)
             {
@@ -206,11 +214,18 @@ namespace BudgetPlanner
                 Console.WriteLine("1 - Buy a car \n2 - Continue program");
                 Console.Write("Select option number > ");
                 int ans = Convert.ToInt32(Console.ReadLine());  // stores user's option
-
+                
                 switch (ans)
                 {
                     case 1: buyCar(); break;  // calls method calculate car cost
                 }
+                if (ans > 2 || ans < 1)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\n| Error: Please enter 1 or 2 |\n");
+                    buyCarOrNot();
+                }
+
             }
             catch (Exception)
             {
